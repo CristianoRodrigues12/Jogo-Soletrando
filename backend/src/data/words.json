@@ -1,0 +1,42 @@
+{
+  "easy": [
+    "casa", "mesa", "água", "livro", "porta", "flor", "sol", "lua", "mar", "rio",
+    "pão", "leite", "café", "chá", "bolo", "doce", "fruta", "maçã", "uva", "pera",
+    "gato", "cão", "pássaro", "peixe", "árvore", "folha", "terra", "vento", "chuva", "neve",
+    "fogo", "luz", "sombra", "cor", "azul", "verde", "vermelho", "amarelo", "preto", "branco",
+    "mão", "pé", "olho", "nariz", "boca", "ouvido", "cabeça", "braço", "perna", "corpo",
+    "amor", "paz", "vida", "tempo", "dia", "noite", "manhã", "tarde", "hora", "ano",
+    "mês", "semana", "hoje", "ontem", "amanhã", "agora", "sempre", "nunca", "muito", "pouco",
+    "grande", "pequeno", "alto", "baixo", "novo", "velho", "bom", "mau", "feliz", "triste",
+    "escola", "aluno", "professor", "cidade", "rua", "praça", "jardim", "parque", "praia", "montanha",
+    "carro", "ônibus", "trem", "barco", "avião", "bicicleta", "estrada", "ponte", "igreja", "museu"
+  ],
+  "medium": [
+    "biblioteca", "universidade", "hospital", "farmácia", "restaurante", "supermercado", "escritório", "apartamento",
+    "computador", "telefone", "internet", "tecnologia", "ciência", "matemática", "história", "geografia", "literatura",
+    "democracia", "liberdade", "justiça", "cidadania", "constituição", "governo", "presidente", "ministro", "eleição",
+    "economia", "indústria", "agricultura", "comércio", "exportação", "importação", "investimento", "orçamento",
+    "ambiente", "sustentável", "reciclagem", "poluição", "biodiversidade", "ecossistema", "climatologia", "meteorologia",
+    "arquitetura", "engenharia", "medicina", "psicologia", "filosofia", "sociologia", "antropologia", "arqueologia",
+    "orquestra", "sinfonia", "pintura", "escultura", "fotografia", "cinema", "teatro", "poesia", "romance", "ensaio",
+    "aventura", "mistério", "fantasia", "imaginação", "criatividade", "inspiração", "motivação", "determinação",
+    "responsabilidade", "compromisso", "experiência", "conhecimento", "aprendizagem", "educação", "formação", "capacitação",
+    "comunicação", "informação", "documento", "relatório", "apresentação", "conferência", "seminário", "workshop",
+    "celebração", "tradição", "cultura", "patrimônio", "herança", "identidade", "diversidade", "tolerância", "respeito"
+  ],
+  "hard": [
+    "inconstitucionalissimamente", "anticonstitucional", "paralelepípedo", "idiossincrasia", "onomatopeia",
+    "epistemologia", "fenomenologia", "hermenêutica", "ontologia", "metafísica", "dialética", "heurística",
+    "paradigma", "sinestesia", "melancolia", "nostalgia", "efêmero", "perene", "ubíquo", "anacrônico",
+    "burocracia", "oligarquia", "plutocracia", "teocracia", "meritocracia", "autocracia", "cosmopolita",
+    "xenofobia", "etnocentrismo", "antropocentrismo", "biocentrismo", "sustentabilidade", "biodiversidade",
+    "fotossíntese", "mitocôndria", "cromossomo", "ribossomo", "homeostase", "metabolismo", "catabolismo",
+    "entomologia", "ornitologia", "ictiologia", "paleontologia", "vulcanologia", "sismologia", "cartografia",
+    "criptografia", "esteganografia", "algoritmo", "heurística", "paradoxo", "ambiguidade", "redundância",
+    "inexorável", "irrefutável", "indubitável", "incomensurável", "intransigente", "intransponível",
+    "quintessência", "serendipidade", "precipitância", "magnanimidade", "pusilanimidade", "perspicácia",
+    "circunlóquio", "procrastinação", "vicissitude", "vicissitudes", "conflagração", "concomitante",
+    "desiderata", "interregno", "zeitgeist", "schadenfreude", "saudade", "saudades", "lusofonia",
+    "lusitanidade", "lusitanismo", "lusófono", "lusófonos", "lusitanos", "lusitanas"
+  ]
+}

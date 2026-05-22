@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Build do frontend
+frontend/dist/
+
+# Variáveis de ambiente (segredos)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Vite / cache
+.vite/
+*.local
+
+# Cobertura de testes (se usar no futuro)
+coverage/

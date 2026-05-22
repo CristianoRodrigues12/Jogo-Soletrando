@@ -1,0 +1,68 @@
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --surface-elevated: #242836;
+  --border: #2e3345;
+  --text: #f0f2f8;
+  --text-muted: #9aa3b8;
+  --accent: #6c8cff;
+  --accent-hover: #8499ff;
+  --success: #3dd68c;
+  --error: #f07178;
+  --warning: #ffcb6b;
+  --easy: #3dd68c;
+  --medium: #ffcb6b;
+  --hard: #f07178;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(108, 140, 255, 0.18), transparent),
+    var(--bg);
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  touch-action: manipulation;
+}
+
+input {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  input {
+    font-size: inherit;
+  }
+}

@@ -1,0 +1,156 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.25rem;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.login-card h1 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.login-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  margin: 0.5rem 0 1rem;
+}
+
+.login-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.login-tab {
+  padding: 0.65rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s;
+}
+
+.login-tab.active {
+  color: var(--text);
+  border-color: var(--accent);
+  background: rgba(108, 140, 255, 0.12);
+}
+
+.login-success {
+  color: var(--success);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.role-fieldset {
+  border: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.role-fieldset legend {
+  margin-bottom: 0.35rem;
+}
+
+.role-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-elevated);
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.role-option:has(input:checked) {
+  border-color: var(--accent);
+  background: rgba(108, 140, 255, 0.1);
+}
+
+.role-option input {
+  margin-top: 0.2rem;
+  accent-color: var(--accent);
+}
+
+.role-option span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.role-option strong {
+  font-size: 0.95rem;
+}
+
+.role-option small {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.login-error {
+  color: var(--warning);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .login-page {
+    padding: 1rem 0.85rem;
+    padding-top: max(1rem, env(safe-area-inset-top));
+    align-items: flex-start;
+    padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+  }
+
+  .login-card {
+    padding: 1.35rem 1.1rem;
+    margin-top: 0.5rem;
+  }
+
+  .login-card h1 {
+    font-size: 1.65rem;
+  }
+
+  .login-tab {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+
+  .role-option {
+    padding: 0.75rem;
+  }
+
+  .role-option strong {
+    font-size: 0.9rem;
+  }
+}
