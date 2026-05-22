@@ -50,6 +50,12 @@ npm run dev
 
 Abra [http://localhost:5173](http://localhost:5173) no navegador.
 
+## Publicar na internet (Render + Netlify)
+
+Guia passo a passo: **[DEPLOY.md](./DEPLOY.md)**  
+- **Backend:** [Render](https://render.com) (pasta `backend`)  
+- **Frontend:** [Netlify](https://www.netlify.com) (pasta `frontend`)
+
 ## Estrutura
 
 ```

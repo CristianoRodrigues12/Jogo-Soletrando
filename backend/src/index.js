@@ -8,7 +8,27 @@ import { requireAuth, requireRole } from './middleware/auth.js';
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-app.use(cors());
+const corsOrigins = (process.env.CORS_ORIGINS || process.env.FRONTEND_URL || '')
+  .split(',')
+  .map((o) => o.trim())
+  .filter(Boolean);
+
+if (corsOrigins.length > 0) {
+  app.use(
+    cors({
+      origin(origin, callback) {
+        if (!origin || corsOrigins.includes(origin)) {
+          callback(null, true);
+        } else {
+          callback(new Error('Origem não permitida pelo CORS'));
+        }
+      },
+    })
+  );
+} else {
+  app.use(cors());
+}
+
 app.use(express.json());
 
 app.get('/api/health', (_req, res) => {
